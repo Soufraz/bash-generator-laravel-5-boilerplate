@@ -8,6 +8,19 @@
 <p>The go.sh script, provide a basic structure files in your project. You'll reduce your time of setup your module.</p>
 <p>The remove.sh script, removes a basic structure files in your project. In case of you generate some module incorrectly.</p>
 
+<h3>Files that will be created</h3>
+<pre><code>
+/app/_ModuleName_.php
+/app/Http/Controllers/Backend/_ModuleName_Controller.php
+/app/Http/Requests/Backend/_ModuleName_/Create_ModuleName_Request.php
+/app/Http/Requests/Backend/_ModuleName_/Update_ModuleName_Request.php
+/app/Http/Routes/Backend/_ModuleName_.php
+/app/Providers/_ModuleName_ServiceProvider.php
+/app/Repositories/Backend/_ModuleName_/_ModuleName_Contract.php
+/app/Repositories/Backend/_ModuleName_/Eloquent_ModuleName_Repository.php
+/app/Services/_ModuleName_/Traits/_ModuleName_Attributes.php
+</code></pre>
+
 <h3>Etc..</h3>
 <p>I'm working on make this generator available as a artisan command. :)</p>
 
